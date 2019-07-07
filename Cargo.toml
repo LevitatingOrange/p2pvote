@@ -1,0 +1,21 @@
+[package]
+name = "p2pvote"
+version = "0.1.0"
+authors = ["Lennart Vogelsang <lennart@vogelsang.berlin>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+csv = "1.1"
+kademlia = {path="/home/levo/Uni/sem8/p2p/kademlia"}
+generic-array = {version = "0.13", features=["serde"]}
+log = "0.4"
+env_logger = "0.6"
+rand = "0.7"
+clap = "2.33"
+termion = "1.5" 
+pbr = "1.0"
+num = "0.2"

@@ -8,7 +8,7 @@ import time
 pool_path = "./example_data/id_pool.csv"
 vote_mapping_path = "./example_data/vote_mappings.csv"
 out_path = "./example_data/bulk.csv"
-number_of_votes = 500
+number_of_votes = 2000
 
 ids = []
 with open(pool_path) as csvfile:

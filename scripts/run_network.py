@@ -4,7 +4,7 @@ import subprocess
 import time
 import csv
 
-delay = 0.05
+delay = 0.01
 path = "./example_data/network.csv"
 exec_path = "./target/release/p2pvote"
 

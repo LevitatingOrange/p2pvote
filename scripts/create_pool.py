@@ -4,7 +4,7 @@ import random
 import csv
 
 
-n = 1000
+n = 5000
 path = "./example_data/id_pool.csv"
 
 randomIds = set()

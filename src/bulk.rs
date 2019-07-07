@@ -71,7 +71,7 @@ fn send_votes<K: FindNodeCount, C: ConcurrenceCount>(
             KademliaKey(vote.key),
             vote.vote,
         ))?;
-        sleep(Duration::from_millis(10));
+        sleep(Duration::from_millis(20));
         pb.inc();
     }
 

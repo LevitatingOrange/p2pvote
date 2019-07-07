@@ -4,7 +4,7 @@ import random
 import csv
 
 
-n = 199
+n = 999
 baseport = 9000
 path = "./example_data/network.csv"
 ip = "127.0.0.1:"

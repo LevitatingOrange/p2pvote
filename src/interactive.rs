@@ -133,7 +133,7 @@ fn tally_up(options: &[&str], results: &[usize]) -> Result<(), std::io::Error> {
         }
         votes[*vote].1 += 1;
     }
-    votes.sort_by(|(_, a), (_, b)| b.cmp(a));
+    //votes.sort_by(|(_, a), (_, b)| b.cmp(a));
     let max_width_votes = votes
         .iter()
         .fold(0, |m, (_, s)| max(m, s.to_string().len()));

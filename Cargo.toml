@@ -10,7 +10,7 @@ edition = "2018"
 actix = "0.8"
 serde = { version = "1.0", features = ["derive"] }
 csv = "1.1"
-kademlia = {path="/home/levo/Uni/sem8/p2p/kademlia"}
+kademlia = {git="https://github.com/LevitatingOrange/kademlia"}
 generic-array = {version = "0.13", features=["serde"]}
 log = "0.4"
 env_logger = "0.6"
